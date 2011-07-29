@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the zeppelin_inputformat feature.
+ */
+
+include_once('zeppelin_inputformat.features.inc');

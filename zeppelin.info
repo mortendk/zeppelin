@@ -1,0 +1,16 @@
+name = Zeppelin
+description = the Epic geek Royale based installer
+version = VERSION
+core = 7.x
+
+dependencies[] = dblog
+dependencies[] = zeppelin_base_setup
+dependencies[] = zeppelin_inputformat
+dependencies[] = zeppelin_user
+files[] = zeppelin.profile
+
+; Information added by drupal.org packaging script on 2011-07-28
+version = "7.7"
+project = "drupal"
+datestamp = "1311813879"
+

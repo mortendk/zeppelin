@@ -1,0 +1,136 @@
+; ----------------
+; Generated makefile from http://drushmake.me
+; Permanent URL: http://drushmake.me/file.php?token=1ae55ccfffc7
+; ----------------
+;
+; This is a working makefile - try it! Any line starting with a `;` is a comment.
+  
+; Core version
+; ------------
+; Each makefile should begin by declaring the core version of Drupal that all
+; projects should be compatible with.
+  
+core = 7.x
+  
+; API version
+; ------------
+; Every makefile needs to declare its Drush Make API version. This version of
+; drush make uses API version `2`.
+  
+api = 2
+  
+; Core project
+; ------------
+; In order for your makefile to generate a full Drupal site, you must include
+; a core project. This is usually Drupal core, but you can also specify
+; alternative core projects like Pressflow. Note that makefiles included with
+; install profiles *should not* include a core project.
+  
+; Drupal 7.x. Requires the `core` property to be set to 7.x.
+projects[drupal][version] = 7
+
+  
+  
+; Modules
+; --------
+projects[admin][version] = 2.0-beta3
+projects[admin][type] = "module"
+projects[admin][subdir] = "contrib"
+projects[admin_menu][version] = 3.0-rc1
+projects[admin_menu][type] = "module"
+projects[admin_menu][subdir] = "contrib"
+projects[ctools][version] = 1.0-beta1
+projects[ctools][type] = "module"
+projects[ctools][subdir] = "contrib"
+projects[context][version] = 3.0-beta1
+projects[context][type] = "module"
+projects[context][subdir] = "contrib"
+projects[features][version] = 1.0-beta3
+projects[features][type] = "module"
+projects[features][subdir] = "contrib"
+projects[email][version] = 1.0-beta1
+projects[email][type] = "module"
+projects[email][subdir] = "contrib"
+projects[link][version] = 1.0-alpha3
+projects[link][type] = "module"
+projects[link][subdir] = "contrib"
+projects[nodereference_url][version] = 1.11
+projects[nodereference_url][type] = "module"
+projects[nodereference_url][subdir] = "contrib"
+projects[html5_tools][version] = 1.0
+projects[html5_tools][type] = "module"
+projects[html5_tools][subdir] = "contrib"
+projects[imce][version] = 1.4
+projects[imce][type] = "module"
+projects[imce][subdir] = "contrib"
+projects[backup_migrate][version] = 2.2
+projects[backup_migrate][type] = "module"
+projects[backup_migrate][subdir] = "contrib"
+projects[better_formats][version] = 1.x-dev
+projects[better_formats][type] = "module"
+projects[better_formats][subdir] = "contrib"
+projects[diff][version] = 2.0
+projects[diff][type] = "module"
+projects[diff][subdir] = "contrib"
+projects[elements][version] = 1.2
+projects[elements][type] = "module"
+projects[elements][subdir] = "contrib"
+projects[image][version] = 1.x-dev
+projects[image][type] = "module"
+projects[image][subdir] = "contrib"
+projects[imce_wysiwyg][version] = 1.x-dev
+projects[imce_wysiwyg][type] = "module"
+projects[imce_wysiwyg][subdir] = "contrib"
+projects[logintoboggan][version] = 1.2
+projects[logintoboggan][type] = "module"
+projects[logintoboggan][subdir] = "contrib"
+projects[menu_block][version] = 2.2
+projects[menu_block][type] = "module"
+projects[menu_block][subdir] = "contrib"
+projects[mollom][version] = 1.1
+projects[mollom][type] = "module"
+projects[mollom][subdir] = "contrib"
+projects[nodequeue][version] = 2.0-alpha2
+projects[nodequeue][type] = "module"
+projects[nodequeue][subdir] = "contrib"
+projects[node_clone][version] = 1.0-beta1
+projects[node_clone][type] = "module"
+projects[node_clone][subdir] = "contrib"
+projects[pathauto][version] = 1.0-rc2
+projects[pathauto][type] = "module"
+projects[pathauto][subdir] = "contrib"
+projects[path_redirect][version] = 1.x-dev
+projects[path_redirect][type] = "module"
+projects[path_redirect][subdir] = "contrib"
+projects[scheduler][version] = 1.0
+projects[scheduler][type] = "module"
+projects[scheduler][subdir] = "contrib"
+projects[site_verify][version] = 1.0
+projects[site_verify][type] = "module"
+projects[site_verify][subdir] = "contrib"
+projects[wysiwyg][version] = 2.1
+projects[wysiwyg][type] = "module"
+projects[wysiwyg][subdir] = "contrib"
+projects[views][version] = 3.0-rc1
+projects[views][type] = "module"
+projects[views][subdir] = "contrib"
+projects[views_bulk_operations][version] = 3.0-beta1
+projects[views_bulk_operations][type] = "module"
+projects[views_bulk_operations][subdir] = "contrib"
+projects[webform][version] = 3.11
+projects[webform][type] = "module"
+projects[webform][subdir] = "contrib"
+
+  
+
+; Themes
+; --------
+projects[mothership][version] = 1.10
+projects[mothership][type] = "theme"
+
+  
+  
+; Libraries
+; ---------
+; No libraries were included
+
