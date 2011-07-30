@@ -4,7 +4,7 @@ version = VERSION
 core = 7.x
 
 dependencies[] = dblog
-dependencies[] = zeppelin_base_setup
+dependencies[] = zeppelin_base
 dependencies[] = zeppelin_inputformat
 dependencies[] = zeppelin_user
 files[] = zeppelin.profile

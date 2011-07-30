@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the zeppelin_base_setup feature.
- */
-
-include_once('zeppelin_base_setup.features.inc');
